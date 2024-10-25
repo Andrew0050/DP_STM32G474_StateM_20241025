@@ -393,14 +393,24 @@
           <GroupName>Application/User/Core</GroupName>
           <Files>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../Core/Src/main.c</FilePath>
-            </File>
-            <File>
               <FileName>CtlLoop.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Core\Src\CtlLoop.c</FilePath>
+            </File>
+            <File>
+              <FileName>function.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\function.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Core/Src/main.c</FilePath>
             </File>
             <File>
               <FileName>gpio.c</FileName>
@@ -451,16 +461,6 @@
               <FileName>stm32g4xx_hal_timebase_tim.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32g4xx_hal_timebase_tim.c</FilePath>
-            </File>
-            <File>
-              <FileName>function.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Core\Src\function.c</FilePath>
-            </File>
-            <File>
-              <FileName>oled.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Core\Src\oled.c</FilePath>
             </File>
           </Files>
         </Group>

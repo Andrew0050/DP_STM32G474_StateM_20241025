@@ -57,6 +57,22 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define TEST_LED_Pin GPIO_PIN_13
+#define TEST_LED_GPIO_Port GPIOC
+#define KEY1_INC_Freq_Pin GPIO_PIN_6
+#define KEY1_INC_Freq_GPIO_Port GPIOA
+#define KEY2_DEC_Freq_Pin GPIO_PIN_7
+#define KEY2_DEC_Freq_GPIO_Port GPIOA
+#define KEY3_INC_DT_Pin GPIO_PIN_4
+#define KEY3_INC_DT_GPIO_Port GPIOB
+#define KEY4_DEC_DT_Pin GPIO_PIN_5
+#define KEY4_DEC_DT_GPIO_Port GPIOB
+#define KEY5_INC_DUTY_Pin GPIO_PIN_6
+#define KEY5_INC_DUTY_GPIO_Port GPIOB
+#define KEY6_DEC_DUTY_Pin GPIO_PIN_7
+#define KEY6_DEC_DUTY_GPIO_Port GPIOB
+#define KEY7_Switch_mode_Pin GPIO_PIN_9
+#define KEY7_Switch_mode_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 #define ADCVin_Pin GPIO_PIN_0

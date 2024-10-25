@@ -114,11 +114,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-		if(OLEDShowCnt>60)//300m????
-		{
-			OLEDShowCnt=0;
-			OLEDShow();
-		}
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
